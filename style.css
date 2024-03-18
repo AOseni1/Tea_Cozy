@@ -10,12 +10,17 @@ nav {
   display: flex;
   border-bottom: 1px solid seashell;
   height: 69px;
+  background-color: black;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
 .navigation-links {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 20px;
 }
 
 .navigation-links a {
