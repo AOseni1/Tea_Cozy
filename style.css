@@ -1,4 +1,153 @@
 body {
   background-color: black;
   color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+nav {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+.navigation-links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation-links a {
+  color: seashell;
+}
+
+.navigation-links a:not(:last-child) {
+  padding: 20px;
+}
+
+.logo {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.top {
+  position: relative;
+}
+
+.mission-image {
+  height: 700px;
+  width: 1200px;
+  display: block;
+  margin: auto;
+}
+
+.mission {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  background: black;
+  width: 100%;
+}
+
+.tea-title-info {
+  text-align: center;
+}
+
+.tea-items img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.first-row :not(:last-child) {
+  margin-right: 30px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.second-row :not(:last-child) {
+  margin-right: 30px;
+}
+.berry-blitz,
+.spiced-rum,
+.seasonal-donuts,
+.myrtle-ave,
+.bedford-bizarre {
+  display: flex;
+  flex-direction: column;
+}
+
+.locations-image {
+  height: 500px;
+  width: 1200px;
+  display: block;
+  margin: auto;
+}
+.location-addresses {
+  display: flex;
+}
+
+.location {
+  position: relative;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+  position: absolute;
+  top: 20%;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  width: 15%;
+  opacity: 1;
+}
+.locations-title {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  margin: auto;
+}
+.downtown {
+  position: absolute;
+  left: 25%;
+  text-align: center;
+}
+.east-bayside {
+  position: absolute;
+  left: 42%;
+  text-align: center;
+}
+
+.oakdale {
+  position: absolute;
+  right: 25%;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background: black;
+  text-align: center;
+  margin-top: 75px;
+  padding-bottom: 10px;
+}
+.copyright {
+  display: flex;
+  margin-left: 20px;
 }
