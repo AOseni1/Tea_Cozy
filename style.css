@@ -8,6 +8,7 @@ body {
 
 nav {
   display: flex;
+  justify-content: space-between;
   height: 69px;
   position: fixed;
   z-index: 99;
@@ -24,24 +25,20 @@ nav {
   width: 100%;
 }
 
+.navigation-links li {
+  display: inline-flex;
+  padding-right: 20px;
+}
+
 .navigation-links a {
   color: seashell;
 }
 
-.navigation-links a:not(:last-child) {
-  padding: 20px;
-}
-
 .logo {
   height: 50px;
-  display: flex;
-  justify-content: flex-start;
   margin-left: 10px;
 }
 .top {
-  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   height: 700px;
   max-width: 1200px;
   margin: 0 auto;
@@ -55,18 +52,20 @@ nav {
   max-width: 1200px;
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
 .mission {
-  /* position: absolute; */
   top: 40%;
   text-align: center;
   background: black;
-  width: 100%;
+  width: 1200px;
+  max-width: 100%;
   position: absolute;
   display: block;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tea-items {
@@ -92,12 +91,15 @@ nav {
   padding-right: 10px;
 }
 
-/* .locations-image {
-  height: 500px;
+.locations-image {
   width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   display: block;
   margin: auto;
 }
+
+/*
 .location-addresses {
   display: flex;
 }
