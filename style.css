@@ -60,12 +60,11 @@ nav {
   text-align: center;
   background: black;
   width: 1200px;
-  max-width: 100%;
+  /* max-width: 100%; */
   position: absolute;
   display: block;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .tea-items {
