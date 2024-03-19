@@ -8,7 +8,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 69px;
   position: fixed;
   z-index: 99;
@@ -19,15 +19,16 @@ nav {
 }
 .navigation-links {
   display: inline-flex;
-  justify-content: flex-end;
   align-items: center;
   margin-right: 20px;
   width: 100%;
+  /* flex-wrap: wrap; */
 }
 
 .navigation-links li {
   display: inline-flex;
-  padding-right: 20px;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .navigation-links a {
