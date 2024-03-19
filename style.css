@@ -50,9 +50,9 @@ nav {
 
 .mission-image {
   height: 700px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   display: block;
-  margin: auto;
+  margin: auto 0;
   max-width: 100%;
 }
 
@@ -60,11 +60,10 @@ nav {
   text-align: center;
   background: black;
   width: 1200px;
-  /* max-width: 100%; */
+  max-width: 100%;
   position: absolute;
   display: block;
-  align-items: center;
-  justify-content: center;
+  margin: auto 0;
 }
 
 .tea-items {
@@ -77,6 +76,7 @@ nav {
 
 .tea-title-info,
 .tea-about {
+  text-align: center;
   max-width: 1000px;
 }
 .tea-images {
@@ -92,7 +92,7 @@ nav {
 
 .locations-image {
   width: 1200px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 100%;
   display: block;
   margin: auto;
