@@ -185,7 +185,7 @@ nav {
   background-color: black;
   width: 100%;
   position: absolute;
-  top: 90%;
+  top: 100%;
 }
 
 .copyright {
@@ -194,5 +194,5 @@ nav {
   display: flex;
   align-items: flex-end;
   margin-left: 20px;
-  padding-top: 100px;
+  padding-top: 150px;
 }
