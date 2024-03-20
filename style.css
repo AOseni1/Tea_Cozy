@@ -145,7 +145,7 @@ nav {
 .location-info {
   position: absolute;
   margin-bottom: 100px;
-  bottom: 30%;
+  bottom: 25%;
 }
 .locations-title {
   display: flex;
@@ -194,5 +194,5 @@ nav {
   display: flex;
   align-items: flex-end;
   margin-left: 20px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
