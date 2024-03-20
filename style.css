@@ -96,22 +96,25 @@ nav {
   width: 100%;
   max-width: 1200px;
   text-align: center;
-  display: block;
+  display: flex;
   margin: auto;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .location-info {
   position: absolute;
-  top: 125px;
-  left: 84px;
 }
 
 .location-addresses {
   display: flex;
+  height: 300px;
+  width: 300px;
   width: 100%;
   align-content: center;
   justify-content: center;
   padding-right: 40px;
+  flex-wrap: wrap;
 }
 
 .downtown,
@@ -132,14 +135,18 @@ nav {
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  position: absolute;
   top: 75%;
   height: 200px;
   background-color: black;
   width: 100%;
 }
 
-.footer {
+.copyright {
   text-align: left;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
 }
