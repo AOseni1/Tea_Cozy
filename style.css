@@ -68,7 +68,8 @@ nav {
 }
 
 .tea-title-info,
-.tea-about {
+.tea-about,
+.tea-name {
   text-align: center;
   max-width: 1000px;
 }
@@ -84,26 +85,69 @@ nav {
 }
 
 .locations-image {
-  max-width: 1200px;
-  width: 100%;
-  height: 100%;
+  width: 1200px;
+  max-width: 100%;
+  height: 500px;
+  height: auto;
   margin: auto;
   display: block;
 }
+
+/* @media only screen and (min-width: 375px) and (max-height: 844px) {
+  .locations-image {
+    height: 900px;
+  }
+  .location {
+    position: relative;
+  }
+
+  .locations-title {
+    position: absolute;
+    left: 20%;
+    bottom: 108%;
+  }
+
+  .location-info {
+    height: 300px;
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .location-addresses {
+    width: ;
+  }
+
+  .downtown,
+  .east-bayside,
+  .oakdale {
+    max-height: 100%;
+    max-width: 33.3%;
+  }
+} */
 
 .location {
   position: relative;
   width: 100%;
   max-width: 1200px;
+  height: 100%;
   text-align: center;
   display: flex;
   margin: auto;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
 }
 
 .location-info {
   position: absolute;
+  top: 75px;
+  left: 84px;
+}
+.locations-title {
+  padding-right: 40px;
 }
 
 .location-addresses {
@@ -111,27 +155,30 @@ nav {
   height: 300px;
   width: 300px;
   width: 100%;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   padding-right: 40px;
-  flex-wrap: wrap;
 }
 
 .downtown,
 .east-bayside,
 .oakdale {
-  height: 300px;
+  max-height: 300px;
   width: 300px;
   background-color: black;
   text-align: center;
   opacity: 1;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: auto;
   margin-right: 40px;
-  line-height: 2;
+  margin-bottom: 250px;
+  line-height: 1.5;
 }
 
 .locations-title {
   padding-right: 40px;
+  margin-bottom: 120px;
 }
 
 .contact {
