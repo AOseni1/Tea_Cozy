@@ -27,7 +27,12 @@ nav {
   color: seashell;
   flex-wrap: wrap;
 }
-
+@media only screen and (min-width: 375px) and (max-height: 844px) {
+  .navigation-links a {
+    display: flexbox;
+    flex-direction: column;
+  }
+}
 .logo {
   height: 50px;
   margin-left: 10px;
