@@ -11,7 +11,7 @@ This is a solution to the [Tea Cozy challenge on Codecademy](https://www.codecad
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-    
+
 ## Overview
 
 ### The challenge
@@ -23,7 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screencapture-127-0-0-1-5500-index-html-2024-03-17-17_20_05.png)
+- Desktop version
+  ![](./Laptop_version.png)
+
+- Mobile version
+  ![](./mobile_version.png)
 
 ### Links
 
@@ -42,4 +46,3 @@ Users should be able to:
 ### What I learned
 
 I learned more about responsive design. semantic HTML, and Flexbox.
-
