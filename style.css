@@ -101,7 +101,7 @@ nav {
 
 @media only screen and (min-width: 375px) and (max-height: 844px) {
   .locations-image {
-    height: 1200px;
+    height: 900px;
   }
 }
 /*
@@ -206,8 +206,6 @@ nav {
   height: 200px;
   background-color: black;
   width: 100%;
-  /* position: absolute; */
-  top: 350%;
 }
 
 .copyright {
