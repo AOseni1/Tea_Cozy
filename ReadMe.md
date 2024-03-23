@@ -23,11 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop version
-  ![](./Laptop_version.png)
-
-- Mobile version
-  ![](./mobile_version.png)
+![](./Laptop_version.png)
 
 ### Links
 
